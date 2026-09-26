@@ -1,0 +1,45 @@
+{
+    "editor.fontFamily": "JetBrains Mono Extralight",
+    "editor.fontSize": 13.5,
+    "editor.lineHeight": 1.25,
+    "terminal.integrated.fontFamily": "Menlo",
+    "terminal.integrated.fontSize": 13.5,
+    "editor.minimap.enabled": false,
+    "window.autoDetectColorScheme": true,
+    "terminal.integrated.lineHeight": 1.05,
+    "editor.wordWrap": "on",
+    "workbench.preferredDarkColorTheme": "Ayu Mojave",
+    "workbench.preferredLightColorTheme": "Ra Spring",
+    "workbench.colorTheme": "Ayu Mojave",
+    "window.nativeTabs": true,
+    "window.titleBarStyle": "native",
+    "workbench.colorCustomizations": {        
+        "[Ayu Mojave]": { // Change name of the theme here if you change the theme above
+            "editor.background": "#262627" // Background color for dark theme
+        },
+        "[Ra Spring]": { // Change name of the theme here if you change the theme above
+            "editor.background": "#fcfcfc", // Background color for light theme
+            "statusBar.noFolderBackground" : "#F0F0F0",
+            "statusBar.debuggingBackground": "#ffc983"
+        }
+    },
+    "git.enableSmartCommit": true,
+    "editor.accessibilitySupport": "off",
+    "workbench.iconTheme": "vscode-icons-mac",
+    "workbench.productIconTheme": "fluent-icons",
+    "window.commandCenter": false,
+    "window.customTitleBarVisibility": "never",
+    "workbench.startupEditor": "none",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.useTabs": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 200,
+    "prettier.proseWrap": "never",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
