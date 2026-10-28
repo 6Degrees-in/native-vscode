@@ -1,0 +1,100 @@
+{
+	"editor.fontFamily": "JetBrains Mono Light",
+	"editor.fontSize": 13.5,
+	"editor.lineHeight": 1.25,
+	"terminal.integrated.fontFamily": "Cascadia Mono, Consolas, monospace",
+	"terminal.integrated.fontSize": 13.5,
+	"terminal.integrated.lineHeight": 1.05,
+	"editor.minimap.enabled": false,
+	"editor.wordWrap": "on",
+	"editor.accessibilitySupport": "off",
+	"window.autoDetectColorScheme": true,
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.startupEditor": "none",
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": ["comment", "punctuation.definition.comment"],
+				"settings": {
+					"foreground": "#8E8E93"
+				}
+			},
+			{
+				"scope": ["entity.name.tag", "punctuation.definition.tag", "punctuation.definition.tag.begin", "punctuation.definition.tag.end"],
+				"settings": {
+					"foreground": "#D99562"
+				}
+			},
+			{
+				"scope": ["entity.other.attribute-name", "entity.other.attribute-name.html", "entity.other.attribute-name.js"],
+				"settings": {
+					"foreground": "#78DCE8"
+				}
+			},
+			{
+				"scope": ["string", "string.quoted", "string.quoted.double", "string.quoted.single", "punctuation.definition.string"],
+				"settings": {
+					"foreground": "#A3BF7D"
+				}
+			},
+			{
+				"scope": ["keyword", "keyword.control", "storage.type", "storage.modifier"],
+				"settings": {
+					"foreground": "#FF6188"
+				}
+			},
+			{
+				"scope": ["entity.name.function", "support.function", "meta.function-call"],
+				"settings": {
+					"foreground": "#A3BF7D"
+				}
+			},
+			{
+				"scope": ["constant.numeric", "constant.language", "constant.character"],
+				"settings": {
+					"foreground": "#AB9DF2"
+				}
+			},
+			{
+				"scope": ["entity.name.type", "support.type", "entity.name.class"],
+				"settings": {
+					"foreground": "#78DCE8"
+				}
+			},
+			{
+				"scope": ["keyword.operator", "punctuation.separator", "punctuation.terminator"],
+				"settings": {
+					"foreground": "#FCFCFA"
+				}
+			}
+		]
+	},
+	"git.enableSmartCommit": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.useTabs": true,
+	"prettier.printWidth": 200,
+	"prettier.proseWrap": "never",
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.cursorStyle": "line",
+	"editor.cursorWidth": 1,
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.smoothScrolling": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.indentation": true,
+	"editor.guides.highlightActiveIndentation": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.renderWhitespace": "selection",
+	"workbench.list.smoothScrolling": true,
+	"breadcrumbs.enabled": true,
+	"breadcrumbs.symbolPath": "on",
+	"editor.stickyScroll.enabled": false
+}
